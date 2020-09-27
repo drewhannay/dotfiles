@@ -10,12 +10,7 @@ else # macOS `ls`
 fi
 
 # Git aliases
-alias gs="git status"
-alias gb="git branch"
-alias gp="git pull --rebase"
-alias gco="git checkout"
-alias gl="git log --graph --decorate --format='%C(auto)%h%Creset %C(auto)%d%Creset %C(cyan)%an%Creset %s'"
-alias gpgrm="git pull origin master:master --rebase && git rebase master"
+alias g="git"
 
 # No more awkward typing ./ constantly for Gradle
 alias gw="./gradlew"

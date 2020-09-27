@@ -27,3 +27,8 @@ done;
 
 # Add tab completion for many git commands
 source ~/bin/git-completion.bash
+
+# Enable tab completion for `g` by marking it as an alias for `git`
+if type _git &> /dev/null; then
+	__git_complete g __git_main
+fi;
